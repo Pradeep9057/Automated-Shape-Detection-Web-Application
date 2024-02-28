@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <!-- Apna Stylesheet and favicon, created from favicon.cc -->
+    <link rel="stylesheet" href="/static/css/output.css">
+
+    <title>Pipe Counter</title>
+</head>
+
+<body>
+
+    <h2>Output of the Given Image</h2>
+
+    <img class="final_image" src="{{url_for('send_image', filename=image_name)}}" alt="Output_image">
+
+</body>
+
+</html>

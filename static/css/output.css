@@ -1,0 +1,28 @@
+/* Reset default margin and padding */
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font */
+body {
+    background-color: #f3f4f6;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Center the heading */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the output image */
+.final_image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
